@@ -1,0 +1,22 @@
+{
+  "nextRestStart": 0,
+  "nextRestEnd": 0,
+  "restType": "",
+  "balance": 3387198,
+  "ownedRods": [
+    "Plastic Rod"
+  ],
+  "currentRod": "Lava Rod",
+  "ownedBoats": [
+    "Rowboat"
+  ],
+  "currentBoat": "Sailboat",
+  "sleepMs": 2700,
+  "clicks": 0,
+  "sellThreshold": 40,
+  "applicationId": "574652751745777665",
+  "cashPerClick": 0,
+  "totalSpending": 0,
+  "lastSellBalance": 0,
+  "boostsExpiry": 0
+}

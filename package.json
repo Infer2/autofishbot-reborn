@@ -1,0 +1,16 @@
+{
+  "name": "fish",
+  "version": "1.0.0",
+  "description": "Discord selfbot — fish",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.4.3",
+    "discord.js-selfbot-v13": "github:aiko-chan-ai/discord.js-selfbot-v13"
+  }
+}
