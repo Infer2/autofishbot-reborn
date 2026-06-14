@@ -66,7 +66,7 @@ autofishbot-reborn/
 │       ├── discord.js        # Client setup and API patches
 │       ├── state.js          # State persistence logic
 │       └── scheduler.js      # Timing and humanization delays
-└── .env.example        # Configuration template
+└── .env      # Configuration
 ```
 
 ## Workflow
