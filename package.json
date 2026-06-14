@@ -1,16 +1,22 @@
 {
   "name": "fish",
-  "version": "1.0.0",
+  "version": "1.17.1",
   "description": "Discord selfbot — fish",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "self-bot"
+  ],
+  "author": "Infer2",
   "license": "ISC",
   "dependencies": {
     "debug": "^4.4.3",
-    "discord.js-selfbot-v13": "github:aiko-chan-ai/discord.js-selfbot-v13"
+    "discord.js-selfbot-v13": "github:aiko-chan-ai/discord.js-selfbot-v13",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.4"
   }
 }

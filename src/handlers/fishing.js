@@ -1,5 +1,7 @@
-'use strict';
+"use strict";
 
-const { checkEmbed } = require('./fishingChecker');
+const { checkEmbed } = require("./fishingChecker");
 
-module.exports = { checkEmbed };
+module.exports = {
+  checkEmbed,
+};

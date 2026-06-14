@@ -34,11 +34,39 @@ A specialized Discord selfbot for Virtual Fisher, designed to automate fishing, 
    ```bash
    npm install
    ```
-2. Configure your token and channel ID in `src/config/index.js`.
-3. Start the bot:
+2. Create a `.env` file from the template:
+   ```bash
+   cp .env.example .env
+   ```
+3. Open `.env` and enter your Discord token and the channel ID where you want to fish.
+4. Start the bot:
    ```bash
    npm start
    ```
+
+## Project Structure
+
+```text
+autofishbot-reborn/
+├── data/               # Persistent storage
+│   └── state.json      # Bot state (balance, items, etc.)
+├── src/
+│   ├── index.js        # Entry point and module reloader
+│   ├── config/         # Price lists and environment config
+│   ├── core/           # Main bot lifecycle and initialization
+│   ├── handlers/       # Core game logic
+│   │   ├── fishing.js        # Fish command dispatcher
+│   │   ├── fishingChecker.js # Embed monitor
+│   │   ├── fishingClicker/   # Button interaction and selling
+│   │   └── upgrades/         # Rod, Boat, and Boost purchasing
+│   └── utils/          # Shared utilities
+│       ├── economy/          # Earnings tracking and calculators
+│       ├── tui/              # Terminal User Interface
+│       ├── discord.js        # Client setup and API patches
+│       ├── state.js          # State persistence logic
+│       └── scheduler.js      # Timing and humanization delays
+└── .env.example        # Configuration template
+```
 
 ## Workflow
 
