@@ -34,12 +34,13 @@ A specialized Discord selfbot for Virtual Fisher, designed to automate fishing, 
    ```bash
    npm install
    ```
-2. Create a `.env` file from the template:
-   ```bash
-   cp .env.example .env
-   ```
+2. Create a `.env` file:
 3. Open `.env` and enter your Discord token and the channel ID where you want to fish.
-4. Start the bot:
+4. ```bash
+   TOKEN=
+   CHANNEL_ID=
+   ```
+5. Start the bot:
    ```bash
    npm start
    ```
